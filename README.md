@@ -1,6 +1,8 @@
 # react-autolinker-wrapper
 React component which automatically converts URLs, email addresses, phone numbers, Twitter handles and hashtags in a string to HTML anchors.
 
+[![Build Status](https://travis-ci.org/gvas/react-autolinker-wrapper.svg?branch=master)](https://travis-ci.org/gvas/react-autolinker-wrapper)
+
 ## Install
 
 ```
