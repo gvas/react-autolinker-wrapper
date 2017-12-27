@@ -37,7 +37,7 @@ export default class AutolinkerWrapper extends React.Component {
 
   render() {
 
-    const { tagName, text, ...rest } = this.props // eslint-disable-line no-unused-vars
+    const { options, tagName, text, ...rest } = this.props // eslint-disable-line no-unused-vars
 
     return <this.props.tagName {...rest} ref={this.saveRef}>{this.props.text}</this.props.tagName>
   }
