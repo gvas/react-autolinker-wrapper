@@ -26,7 +26,15 @@ describe('AutolinkerWrapper', () => {
 
   it('should add the extra properties to the wrapper element', () => {
     const wrapper = mount(<AutolinkerWrapper tooltip="test tooltip" />)
-    expect(wrapper.childAt(0).props().tooltip).toEqual('test tooltip')
+    expect(wrapper.childAt(0).prop('tooltip')).toEqual('test tooltip')
+    wrapper.unmount()
+  })
+
+  it('shouldn\'t add the tagName, text and options properties to the wrapper element', () => {
+    const wrapper = mount(<AutolinkerWrapper tagName="div" text="test" options={{stripPrefix: false}} />)
+    expect(wrapper.childAt(0).prop('tagName')).toBeUndefined()
+    expect(wrapper.childAt(0).prop('text')).toBeUndefined()
+    expect(wrapper.childAt(0).prop('options')).toBeUndefined()
     wrapper.unmount()
   })
 
