@@ -29,7 +29,6 @@ import AutolinkerWrapper from 'react-autolinker-wrapper'
 ## Example
 
 <p data-height="265" data-theme-id="0" data-slug-hash="rpYWQR" data-default-tab="js,result" data-user="gvas" data-embed-version="2" data-pen-title="rpYWQR" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/gvas/pen/rpYWQR/">rpYWQR</a> by Vas Gábor (<a href="https://codepen.io/gvas">@gvas</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Properties
 
