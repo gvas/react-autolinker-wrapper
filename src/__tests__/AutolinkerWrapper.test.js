@@ -53,12 +53,21 @@ describe('AutolinkerWrapper', () => {
     wrapper.unmount()
   })
 
-  it('should invoke autolinker on each update', () => {
+  it('should invoke autolinker when the text or options properties change', () => {
     const link = jest.spyOn(Autolinker, 'link')
     const wrapper = mount(<AutolinkerWrapper text="test1" />)
     expect(link).toHaveBeenLastCalledWith('test1')
     wrapper.setProps({text: 'test2'})
     expect(link).toHaveBeenLastCalledWith('test2')
+    wrapper.unmount()
+  })
+
+  it('should not invoke autolinker when some extra property changes', () => {
+    const link = jest.spyOn(Autolinker, 'link')
+    const wrapper = mount(<AutolinkerWrapper tooltip="test tooltip" />)
+    link.mockClear()
+    wrapper.setProps({tooltip: 'test tooltip 2'})
+    expect(link).not.toHaveBeenCalled()
     wrapper.unmount()
   })
 })

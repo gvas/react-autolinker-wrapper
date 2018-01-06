@@ -21,8 +21,10 @@ export default class AutolinkerWrapper extends React.Component {
     this.invokeLink()
   }
 
-  componentDidUpdate() {
-    this.invokeLink()
+  componentDidUpdate(prevProps) {
+    if (prevProps.text != this.props.text || prevProps.options != this.props.options) {
+      this.invokeLink()
+    }
   }
 
   invokeLink = () => {
