@@ -53,8 +53,7 @@
     "replace-ext": "^1.0.0",
     "rollup": "^0.59.0",
     "rollup-plugin-babel": "^3.0.3",
-    "rollup-plugin-uglify": "^4.0.0",
-    "uglify-es": "^3.3.4"
+    "rollup-plugin-terser": "^1.0.1"
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-rc || ^15.0.0 || ^16.0.0"
