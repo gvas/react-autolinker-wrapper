@@ -53,7 +53,7 @@
     "replace-ext": "^1.0.0",
     "rollup": "^0.66.0",
     "rollup-plugin-babel": "^4.0.1",
-    "rollup-plugin-terser": "^2.0.0"
+    "rollup-plugin-terser": "^3.0.0"
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-rc || ^15.0.0 || ^16.0.0"
