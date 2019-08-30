@@ -30,30 +30,29 @@
     "dist"
   ],
   "dependencies": {
-    "autolinker": "^3.0.1",
-    "prop-types": "^15.6.0"
+    "autolinker": "^3.11.0",
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-jest": "^23.0.0",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-react-remove-prop-types": "^0.4.12",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "coveralls": "^3.0.0",
-    "enzyme": "^3.6.0",
-    "enzyme-adapter-react-16": "^1.5.0",
-    "eslint": "^6.0.0",
-    "eslint-plugin-react": "^7.5.1",
-    "jest": "^22.0.4",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "coveralls": "^3.0.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint": "^6.2.2",
+    "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "replace-ext": "^1.0.0",
-    "rollup": "^1.0.0",
-    "rollup-plugin-babel": "^4.0.1",
-    "rollup-plugin-terser": "^5.0.0"
+    "rollup": "^1.20.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-terser": "^5.1.1"
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-rc || ^15.0.0 || ^16.0.0"

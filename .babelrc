@@ -3,27 +3,27 @@
     "development": {
       "presets": [
         [
-          "env",
+          "@babel/env",
           {
             "modules": false
           }
         ],
-        "react"
+        "@babel/react"
       ],
       "plugins": [
-        "transform-class-properties",
-        "transform-object-rest-spread"
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread"
       ]
     },
     "production": {
       "presets": [
         [
-          "env",
+          "@babel/env",
           {
             "modules": false
           }
         ],
-        "react"
+        "@babel/react"
       ],
       "plugins": [
         [
@@ -32,18 +32,18 @@
             "removeImport": true
           }
         ],
-        "transform-class-properties",
-        "transform-object-rest-spread"
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread"
       ]
     },
     "test": {
       "presets": [
-        "env",
-        "react"
+        "@babel/env",
+        "@babel/react"
       ],
       "plugins": [
-        "transform-class-properties",
-        "transform-object-rest-spread"
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread"
       ]
     }
   }
