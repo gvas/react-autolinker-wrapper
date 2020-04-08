@@ -22,6 +22,7 @@ import AutolinkerWrapper from 'react-autolinker-wrapper'
   text="Documentation at https://github.com/gvas/react-autolinker-wrapper"
   options={{
     newWindow: true,
+    sanitizeHtml: true,
     stripPrefix: false,
   }} />
 ```
