@@ -30,7 +30,7 @@
     "dist"
   ],
   "dependencies": {
-    "autolinker": "^3.14.0",
+    "autolinker": "^3.14.1",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
